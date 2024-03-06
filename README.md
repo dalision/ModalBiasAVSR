@@ -27,7 +27,7 @@ Advanced Audio-Visual Speech Recognition (AVSR) systems have been observed to be
 Through the aforementioned three experiments, we have discovered that increasing the training dropout rate on video data leads to increased similarity between AVSR and ASR in the performance degradation curves, recognition results, and intermediate representation subspace distribution. The findings reveal the significant impact of dropout in introducing effectively perturbs the distribution of multimodal training data. It leads to a shift from multimodal joint distribution to unimodal distribution, resulting in a decision bias towards audio during the decision-making process, as reflected in the output similarity of ASR. We refer to this phenomenon induced by dropout as dropout-induced modality bias. Although dropout-induced bias enhances the robustness of missing video data to some extent, we emphasize that it contradicts the primary design of AVSR as a robust application in noisy environments with supplementary visual cues.
 
 <p align="center">
-    <img src="media/study.jpg">
+    <img src="media/study.png">
 </p>
 
 ### Modality Bias Hypothesis (MBH)
@@ -54,11 +54,15 @@ For entirely missing modalities, adapters are adopted to dynamically switch deci
 
 #### Maintain performance and robustness simultaneously
 
-![image-20240306163426038](../../../../AppData/Roaming/Typora/typora-user-images/image-20240306163426038.png)
+<p align="center">
+    <img src="media/overall.png">
+</p>
 
 #### **The advantage of robustness against zero-shot noise of our proposed modality-unbiased model is highlighted, aligning with the objective of AVSR as a robust system for real-world applications**
 
-![image-20240306163457391](../../../../AppData/Roaming/Typora/typora-user-images/image-20240306163457391.png)
+<p align="center">
+    <img src="media/zeroshot.png">
+</p>
 
 
 
