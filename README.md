@@ -5,16 +5,17 @@ Offical implementation of the CVPR 2024 paper: A Study of Dropout-Induced Modali
 
 ## To-Do:
 
-- Paper update on arxiv (Before Camera Ready)
-- Pretraining Code (Before Conference)
-- MDA-KD finetune Code (Before Conference)
-- MS-Adpter finetune Code (Before Conference)
-- Environment Setting  (Before Conference)
-- Inference Code (Before Conference)
+- [x] Paper update on arxiv (done)
+- [ ] Pretraining Code (Before Conference)
+- [ ] MDA-KD finetune Code (Before Conference)
+- [ ] MS-Adpter finetune Code (Before Conference)
+- [ ] Environment Setting  (Before Conference)
+- [ ] Inference Code (Before Conference)
 
 ## News
 
 - (🔥New) 2024/03/06 The project page is  uploaded on the Github.
+- (🔥New) 2024/03/08 The [paper](https://arxiv.org/abs/2403.04245) is uploaded on the arxiv.
 
 ## Brief Intro
 
@@ -71,6 +72,22 @@ For entirely missing modalities, adapters are adopted to dynamically switch deci
 If you find our work intriguing, inspiring or useful to your research, please consider citing:
 
 ```bibtex
+@misc{dai2024study,
+      title={A Study of Dropout-Induced Modality Bias on Robustness to Missing Video Frames for Audio-Visual Speech Recognition}, 
+      author={Yusheng Dai and Hang Chen and Jun Du and Ruoyu Wang and Shihao Chen and Jiefeng Ma and Haotian Wang and Chin-Hui Lee},
+      year={2024},
+      eprint={2403.04245},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
+}
 
+@misc{dai2023improving,
+      title={Improving Audio-Visual Speech Recognition by Lip-Subword Correlation Based Visual Pre-training and Cross-Modal Fusion Encoder}, 
+      author={Yusheng Dai and Hang Chen and Jun Du and Xiaofei Ding and Ning Ding and Feijun Jiang and Chin-Hui Lee},
+      year={2023},
+      eprint={2308.08488},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
