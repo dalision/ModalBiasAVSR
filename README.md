@@ -6,11 +6,11 @@ Offical implementation of the CVPR 2024 paper: A Study of Dropout-Induced Modali
 ## To-Do:
 
 - [x] Paper update on arxiv (done)
-- [ ] Pretraining Code (Before Conference)
-- [ ] MDA-KD finetune Code (Before Conference)
-- [ ] MS-Adpter finetune Code (Before Conference)
-- [ ] Environment Setting  (Before Conference)
-- [ ] Inference Code (Before Conference)
+- [ ] Pretraining Code (expected before Chinese New Year)
+- [ ] MDA-KD finetune Code (expected before Chinese New Year)
+- [ ] MS-Adpter finetune Code (expected before Chinese New Year)
+- [ ] Environment Setting  (expected before Chinese New Year)
+- [ ] Inference Code (expected before Chinese New Year)
 
 ## News
 
